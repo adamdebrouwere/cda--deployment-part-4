@@ -11,8 +11,8 @@ function App() {
         <Header />
         <Routes>
           <Route path={"/"} element={<Warehouse />} />
-          <Route path={"warehouses"} element={<Warehouse />} />
-          <Route path={"inventory"} element={<Inventory />} />
+          <Route path={"/warehouses"} element={<Warehouse />} />
+          <Route path={"/inventory"} element={<Inventory />} />
         </Routes>
       </div>
     </BrowserRouter>
